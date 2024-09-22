@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    margin: 20px;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.button.green {
+    background-color: #ccff99; /* Verde limón suave */
+}
+
+.button.red {
+    background-color: #ff9999; /* Rojo suave */
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+#flowerCanvas {
+    display: none;
+    margin: 20px auto;
+    border: 2px solid white;
+}
+
+#message {
+    color: purple;
+    font-size: 18px;
+    margin-top: 20px;
+}
